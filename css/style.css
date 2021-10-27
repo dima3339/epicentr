@@ -1,0 +1,125 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.wrap {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  background-color: #1060c1;
+}
+
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.haed__logo {
+  max-width: 16%;
+  width: 100%;
+  margin-right: 5px;
+}
+
+.head__adress {
+  max-width: 25%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1170d0;
+  border-radius: 3px;
+  padding: 5px 15px;
+  margin-right: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.head__adress:hover {
+  background-color: #007aff;
+}
+
+.head__adress-link {
+  fill: #fff;
+}
+
+.head__adress-group {
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  margin-right: 25px;
+}
+
+.head__info {
+  max-width: 25%;
+  width: 100%;
+  display: flex;
+
+}
+
+.head__login {
+  max-width: 25%;
+  width: 100%;
+  display: flex;
+
+}
+
+.head__menu {
+  max-width: 25%;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fcec03;
+  border-radius: 2px;
+  padding: 0 5px;
+}
+
+.head__menu-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 18px;  
+}
+
+.head__menu-text {
+  color: #333;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.head__menu-burger p {
+  width: 16px;
+  height: 2px;
+  background-color: #333;
+  margin: 4px 0;
+}
+
+.head__search {
+  max-width: 50%;
+  width: 100%;
+  display: flex;
+
+}
+
+.head__links {
+  max-width: 25%;
+  width: 100%;
+  display: flex;
+
+}
