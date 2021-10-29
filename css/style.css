@@ -1,0 +1,243 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.wrap {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  background-color: #1060c1;
+}
+
+.brain {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+  margin-bottom: 8px;
+}
+
+.brain__logo {
+  max-width: 275px;
+  width: 100%;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.brain__logo-img {
+  width: 165px;  
+}
+
+.brain__adress {
+  margin-right: 10px;
+}
+
+.brain__adress-link {
+  max-width: 226px;
+  width: 226px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1170d0;
+  border-radius: 3px;
+  padding: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.brain__adress-link:hover {
+  background-color: #007aff;
+}
+
+.brain__adress-text {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.brain__adress-text-1 {
+  text-transform: uppercase;
+}
+
+.brain__adress svg {
+  fill: #fff;
+}
+
+.brain__info-link {
+  max-width: 226px;
+  width: 226px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1170d0;
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.brain__info-link:hover {
+  background-color: #007aff;
+}
+
+.brain__info-text {
+  max-width: calc(100% - 45px);
+  width: calc(100% - 45px);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 11px;
+}
+
+.brain__info svg {
+  fill: #fff;
+}
+
+.brain__sale {
+  max-width: 379px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.brain__sale-link {
+  width: 30%;
+  display: block;
+  text-align: center;
+  border-radius: 3px;
+  padding-top: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.brain__sale-link:hover {
+  background-color: #007aff;
+}
+
+.brain__login-link {
+  display: flex;
+  align-items: center;
+  fill: #869cb6;
+  transition: fill 0.3s ease;
+}
+
+.brain__login-link:hover {
+  fill: #fff;
+}
+
+.brain__login-link svg {
+  vertical-align: middle;
+}
+
+.brain__login-text {
+  text-transform: capitalize;
+  color: #fff;
+  vertical-align: middle;
+  padding-left: 5px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+}
+
+.head__menu {
+  max-width: 275px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.head__menu-link {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  fill: #333;
+  background-color: #fcec03;
+  border-radius: 3px;
+  padding: 5px 20px;
+}
+
+.head__menu-text {
+  text-transform: uppercase;
+  color: #333;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.head__search {
+  display: flex;
+  max-width: 600px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.head__search-area {
+  width: 500px;
+  text-transform: capitalize;
+  font-size: 13px;
+  color: #333;
+  border: none;
+  outline: none;
+  border-radius: 3px 0 0 3px;
+  padding: 0 20px;
+}
+
+.head__search-btn {
+  background-color: #fcec03;
+  border: none;
+  border-radius: 0 3px 3px 0;
+  padding: 9px 16px;
+  cursor: pointer;
+}
+
+.head__search-btn svg {
+  fill: #1060c1;
+  vertical-align: middle;
+  margin-bottom: 1px;
+}
+
+.head__items {
+  max-width: 367px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 60px;
+}
+
+.head__items-link {
+  display: flex;
+  align-items: center;
+  fill: #869cb6;
+  transition: fill 0.3s ease;
+}
+
+.head__items-link:hover {
+  fill: #fff;
+}
+
+.head__items-link svg {
+  vertical-align: middle;
+}
+
+.head__items-text {
+  text-transform: capitalize;
+  color: #fff;
+  vertical-align: middle;
+  padding-left: 5px;
+}
