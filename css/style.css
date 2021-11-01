@@ -260,25 +260,26 @@ a {
   font-size: 0;
   z-index: 1;
   border: none;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 48px;
+  width: 23px;
+  z-index: 2;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .slick-prev {
   left: 50px;
   background-image: url(../images/icons/arrow-left.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 40px;
-  width: 40px;
+  background-position: left;
 }
+
 
 .slick-next {
   right: 50px;
   background-image: url(../images/icons/arrow-right.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 40px;
-  width: 40px;
+  background-position: right;
 }
 
 .slick-dots {
