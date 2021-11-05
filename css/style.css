@@ -13,7 +13,7 @@ a {
 }
 
 .wrap {
-  max-width: 1230px;
+  max-width: 1320px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -27,7 +27,6 @@ a {
 
 .brain {
   display: flex;
-  justify-content: space-between;
   padding-top: 8px;
   margin-bottom: 8px;
 }
@@ -154,7 +153,6 @@ a {
 
 .head {
   display: flex;
-  justify-content: space-between;
   padding-bottom: 8px;
 }
 
@@ -184,13 +182,13 @@ a {
 
 .head__search {
   display: flex;
-  max-width: 600px;
+  max-width: 630px;
   height: 40px;
   margin-right: 10px;
 }
 
 .head__search-area {
-  width: 500px;
+  width: 580px;
   text-transform: capitalize;
   font-size: 13px;
   color: #333;
@@ -249,11 +247,10 @@ a {
   max-width: 2500px;
   width: 100%;
   position: relative;
-  margin: 0 auto;
-
+  margin: 0 auto 20px;
 }
 
-.slick-prev,
+/* .slick-prev,
 .slick-next {
   position: absolute;
   top: 50%;
@@ -275,13 +272,12 @@ a {
   background-position: left;
 }
 
-
 .slick-next {
   right: 50px;
   background-image: url(../images/icons/arrow-right.svg);
   background-position: right;
 }
-
+ */
 .slick-dots {
   position: absolute;
   display: flex;
@@ -306,4 +302,66 @@ a {
 
 .slick-active button {
   background-color: #1060c1;
+}
+
+
+
+
+
+
+
+
+
+.stock {
+  margin-bottom: 20px;
+}
+
+.container {
+  background-color: #fff;
+  position: relative;
+}
+
+.title {
+  height: 56px;
+  text-transform: capitalize;
+  font-size: 18px;
+  line-height: 3.3;
+  font-weight: 700;
+  padding: 0 10px;
+}
+
+.stock__block {
+  height: 630px;
+  background-color: #869cb6;
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: -38px;
+  font-size: 0;
+  border: none;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.slick-prev {
+  right: 52px;
+  background-image: url(../images/icons/arrow-left.svg);
+}
+
+.slick-next {
+  right: 14px;
+  background-image: url(../images/icons/arrow-right.svg);
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: #007aff;
 }
